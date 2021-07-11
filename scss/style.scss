@@ -1,0 +1,29 @@
+// Файл обнуляющих стилей
+@import "nullstyle.scss";
+
+// Переменные для блока
+body {
+   font-size: 45px;
+   color: chartreuse;
+   .block {
+      font-size: 45px;
+      // .block__text
+
+      &__text {
+         font-size: 45px;
+      }
+   }
+   .block--big {
+      font-size: 45px;
+   }
+   .link {
+      // .link__
+
+      &__ {
+         font-size: 45px;
+      }
+   }
+   .link-2 {
+      font-size: 45px;
+   }
+}
